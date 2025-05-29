@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url("/BC.png");
+}
+
+.form{
+    margin-top: 80px;
+    background-color: black;
+    display: block;
+    width: 450px;
+    /* border: 1px solid blue; */
+    min-height: 250px;
+    margin-left: 310px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid palevioletred;
+} 
+
+input{
+    margin-top:10px;
+    margin-bottom: 10px;
+    width:80%;
+    height: 45px;
+    color: black;
+    margin-left: 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 0.5px solid gray;
+}
+
+#I1{
+    margin-top: 30px;
+}
+
+#I6{
+    width: 50%;
+    margin-bottom: 30px;
+    color:black;
+    background-color: rgb(232, 46, 77);
+    margin-left: 110px;
+    font-size: 1.1rem;
+    border: 0.2px solid gray;
+}
+
+#I6:hover{
+    color: white;
+    background-color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline ;
+    color: red;
+    margin-top: -10px;
+}
